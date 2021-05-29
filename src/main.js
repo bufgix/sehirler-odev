@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+import Map from "./components/Map.vue";
+
+import "./styles/app.scss";
+
+const app = createApp(App);
+app.component("Map", Map);
+app.mount("#app");
