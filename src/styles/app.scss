@@ -11,10 +11,6 @@
 @import "utilities/display";
 @import "utilities/visibility";
 
-html {
-  color: $color-white;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,6 +21,10 @@ html {
 #app {
   width: 100vw;
   height: 100vh;
+}
+
+.p-relative {
+  position: relative !important;
 }
 
 .scroll {
@@ -58,7 +58,7 @@ html {
 
 .flex-center {
   display: flex;
-  justify-content: center;
+  ptify-content: center;
   align-items: center;
 }
 
@@ -227,7 +227,7 @@ hr {
   &-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    ptify-content: space-between;
     height: 64px;
     border-bottom: 1px solid black;
     padding: 0 $spacer-5;

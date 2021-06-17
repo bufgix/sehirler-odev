@@ -826,7 +826,7 @@ const REGION_COLORS = {
   Akdeniz: "#31aad6",
   "Güneydoğu Anadolu": "#31d63f",
   Ege: "#d63131",
-  "Doğu Anadolu": "#bf36b4",
+  "Doğu Anadolu": "#f774b7",
   Karadeniz: "#e07436",
   "İç Anadolu": "#dbc72c",
   Marmara: "#3b3ba1",
@@ -901,12 +901,13 @@ export default {
     background: #222;
     border: 1px solid #fff;
     border-radius: 5px;
+    color: white
   }
   path {
     fill: #555;
 
     &:hover {
-      fill: #222;
+      fill: #222 !important
     }
   }
 }
