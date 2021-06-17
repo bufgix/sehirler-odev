@@ -1,0 +1,4 @@
+dist klasoru uygulamanın paketlenmiş halidir. Direkt olarak index.html i açarak çalıştırılabilir.
+
+Uygulamanın kaynak kodu: 
+Canlı olarak çalıştığı yer:

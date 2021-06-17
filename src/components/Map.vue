@@ -895,7 +895,7 @@ export default {
 
 <style lang="scss" scoped>
 .svg-turkiye-haritasi {
-  max-width: 70%;
+  width: 70%;
   .info {
     position: absolute;
     background: #222;
