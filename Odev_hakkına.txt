@@ -1,4 +1,4 @@
 dist klasoru uygulamanın paketlenmiş halidir. Direkt olarak index.html i açarak çalıştırılabilir.
 
-Uygulamanın kaynak kodu: 
+Uygulamanın kaynak kodu: https://github.com/bufgix/sehirler-odev
 Canlı olarak çalıştığı yer: https://181213044-sehirler-odev-8mhq061z7-bufgix.vercel.app/#/
